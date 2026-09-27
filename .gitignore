@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+myqr.png
+.vscode/
+shared_files/*
+!shared_files/.gitkeep
