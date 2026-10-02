@@ -38,7 +38,7 @@ webbrowser.open(qr_path)
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print("Serving at port", PORT)
     print("Type this in your Browser:", IP)
-    print("Scan the QR code to access the files")
+    print("Scan the QR code to access your shared files")
     print("Press Ctrl+C to stop the server")
 
     httpd.serve_forever()
